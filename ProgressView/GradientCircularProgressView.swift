@@ -2,7 +2,12 @@
 //  GradientCircularProgressView.swift
 //  ProgressView
 //
-//  Created by dev57 on 10/01/2021.
+//  Created by ZyadGalal on 10/01/2021.
 //
 
-import Foundation
+import UIKit
+
+@IBDesignable
+class GradientCircularProgressView: UIView {
+    
+}
