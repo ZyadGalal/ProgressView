@@ -17,7 +17,7 @@ class GradientHorizontalProgressView: UIView {
         }
     }
     @IBInspectable var barCornerRadius: CGFloat = 0.25
-    @IBInspectable var animationColor: UIColor = .black {
+    @IBInspectable var animationColor: UIColor = .white {
         didSet{
             setNeedsDisplay()
         }

@@ -10,7 +10,7 @@ import UIKit
 
 @IBDesignable
 
-class solidCircularProgressBar: UIView {
+class SolidCircularProgressBar: UIView {
     @IBInspectable var barColor: UIColor? = .gray
     @IBInspectable var barRingwidth: CGFloat = 5
     

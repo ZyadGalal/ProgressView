@@ -32,7 +32,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="withGradient" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pHP-NQ-CgM" customClass="solidCircularProgressBar" customModule="ProgressView" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pHP-NQ-CgM" customClass="SolidCircularProgressBar" customModule="ProgressView" customModuleProvider="target">
                                 <rect key="frame" x="107" y="180" width="200" height="200"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <constraints>
@@ -61,6 +61,19 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="withGradient" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Svd-Tp-UkW" customClass="GradientCircularProgressBar" customModule="ProgressView" customModuleProvider="target">
+                                <rect key="frame" x="107" y="412" width="200" height="200"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="WZL-BH-f5H"/>
+                                    <constraint firstAttribute="height" constant="200" id="mtS-4z-pRp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barColor">
+                                        <color key="value" systemColor="systemPinkColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -70,13 +83,16 @@
                             <constraint firstItem="Cqv-aR-iv2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="CYP-B6-CBt"/>
                             <constraint firstItem="pHP-NQ-CgM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DaR-WO-P8o"/>
                             <constraint firstItem="hdI-YB-yk1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="IUj-fQ-UsT"/>
+                            <constraint firstItem="Svd-Tp-UkW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LJq-Bc-iuZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cqv-aR-iv2" secondAttribute="trailing" constant="16" id="dNf-NZ-oxC"/>
+                            <constraint firstItem="Svd-Tp-UkW" firstAttribute="top" secondItem="pHP-NQ-CgM" secondAttribute="bottom" constant="32" id="i8H-mO-gN6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hdI-YB-yk1" secondAttribute="trailing" constant="16" id="mJ0-3T-730"/>
                             <constraint firstItem="hdI-YB-yk1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qqN-H6-dDY"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="circularProgressView" destination="pHP-NQ-CgM" id="fg9-8R-nVo"/>
+                        <outlet property="circularProgressView" destination="pHP-NQ-CgM" id="3ec-pV-XDN"/>
+                        <outlet property="gradientCircularProgressView" destination="Svd-Tp-UkW" id="oHT-R3-N5H"/>
                         <outlet property="gradientProgressView" destination="Cqv-aR-iv2" id="D3d-ZX-97G"/>
                         <outlet property="progressView" destination="hdI-YB-yk1" id="nhO-my-UmW"/>
                     </connections>

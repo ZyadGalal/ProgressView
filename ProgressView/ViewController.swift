@@ -9,8 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var gradientCircularProgressView: GradientCircularProgressBar!
     @IBOutlet weak var gradientProgressView: GradientHorizontalProgressView!
-    @IBOutlet weak var circularProgressView: solidCircularProgressBar!
+    @IBOutlet weak var circularProgressView: SolidCircularProgressBar!
     @IBOutlet weak var progressView: SolidHorizontalProgressView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +24,8 @@ class ViewController: UIViewController {
             self.progressView.progress = 0.7
             self.circularProgressView.progress = 0.7
             self.gradientProgressView.progress = 0.7
-
+            
+            self.gradientCircularProgressView.progress = 0.7
         }
     }
 

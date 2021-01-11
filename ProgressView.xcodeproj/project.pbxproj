@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B038F5025AC594400A74CA6 /* GradientCircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B038F4F25AC594400A74CA6 /* GradientCircularProgressBar.swift */; };
 		1B1A1DC125AAD91C00A7535A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A1DC025AAD91C00A7535A /* AppDelegate.swift */; };
 		1B1A1DC525AAD91C00A7535A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A1DC425AAD91C00A7535A /* ViewController.swift */; };
 		1B1A1DC825AAD91C00A7535A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A1DC625AAD91C00A7535A /* Main.storyboard */; };
 		1B1A1DCA25AAD91D00A7535A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A1DC925AAD91D00A7535A /* Assets.xcassets */; };
 		1B1A1DCD25AAD91D00A7535A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A1DCB25AAD91D00A7535A /* LaunchScreen.storyboard */; };
 		1B1A1DD725AAD99200A7535A /* SolidHorizontalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A1DD625AAD99200A7535A /* SolidHorizontalProgressBar.swift */; };
-		1B1A1DDA25AAE28E00A7535A /* solidCircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A1DD925AAE28E00A7535A /* solidCircularProgressBar.swift */; };
+		1B1A1DDA25AAE28E00A7535A /* SolidCircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A1DD925AAE28E00A7535A /* SolidCircularProgressBar.swift */; };
 		1B1A1DDE25AAFC1C00A7535A /* GradientHorizontalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A1DDD25AAFC1C00A7535A /* GradientHorizontalProgressView.swift */; };
-		1B1A1DE125AAFE2600A7535A /* GradientCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A1DE025AAFE2600A7535A /* GradientCircularProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B038F4F25AC594400A74CA6 /* GradientCircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientCircularProgressBar.swift; sourceTree = "<group>"; };
 		1B1A1DBD25AAD91C00A7535A /* ProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1A1DC025AAD91C00A7535A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B1A1DC425AAD91C00A7535A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,9 +28,8 @@
 		1B1A1DCC25AAD91D00A7535A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B1A1DCE25AAD91D00A7535A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B1A1DD625AAD99200A7535A /* SolidHorizontalProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidHorizontalProgressBar.swift; sourceTree = "<group>"; };
-		1B1A1DD925AAE28E00A7535A /* solidCircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solidCircularProgressBar.swift; sourceTree = "<group>"; };
+		1B1A1DD925AAE28E00A7535A /* SolidCircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidCircularProgressBar.swift; sourceTree = "<group>"; };
 		1B1A1DDD25AAFC1C00A7535A /* GradientHorizontalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientHorizontalProgressView.swift; sourceTree = "<group>"; };
-		1B1A1DE025AAFE2600A7535A /* GradientCircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCircularProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 				1B1A1DCB25AAD91D00A7535A /* LaunchScreen.storyboard */,
 				1B1A1DCE25AAD91D00A7535A /* Info.plist */,
 				1B1A1DD625AAD99200A7535A /* SolidHorizontalProgressBar.swift */,
-				1B1A1DD925AAE28E00A7535A /* solidCircularProgressBar.swift */,
+				1B1A1DD925AAE28E00A7535A /* SolidCircularProgressBar.swift */,
+				1B038F4F25AC594400A74CA6 /* GradientCircularProgressBar.swift */,
 				1B1A1DDD25AAFC1C00A7535A /* GradientHorizontalProgressView.swift */,
-				1B1A1DE025AAFE2600A7535A /* GradientCircularProgressView.swift */,
 			);
 			path = ProgressView;
 			sourceTree = "<group>";
@@ -146,12 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B1A1DE125AAFE2600A7535A /* GradientCircularProgressView.swift in Sources */,
 				1B1A1DC525AAD91C00A7535A /* ViewController.swift in Sources */,
 				1B1A1DDE25AAFC1C00A7535A /* GradientHorizontalProgressView.swift in Sources */,
 				1B1A1DD725AAD99200A7535A /* SolidHorizontalProgressBar.swift in Sources */,
 				1B1A1DC125AAD91C00A7535A /* AppDelegate.swift in Sources */,
-				1B1A1DDA25AAE28E00A7535A /* solidCircularProgressBar.swift in Sources */,
+				1B1A1DDA25AAE28E00A7535A /* SolidCircularProgressBar.swift in Sources */,
+				1B038F5025AC594400A74CA6 /* GradientCircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2W76MX738;
 				INFOPLIST_FILE = ProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2W76MX738;
 				INFOPLIST_FILE = ProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
